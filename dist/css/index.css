@@ -1,0 +1,117 @@
+.logo{
+  height: 20px;
+}
+
+.led-box {
+    margin: 0 10px;
+}
+
+.led-on {
+  width: 40px;
+  height: 40px;
+  background-color: #ABFF00;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #89FF00 0 2px 12px;
+}
+
+.led-off {
+  padding: 0px;
+  width: 40px;
+  height: 40px;
+  background-color: #cacaca;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #303030 0 -1px 9px, rgba(255, 255, 255, 0.5) 0 2px 12px;
+}
+
+.led-connect-on {
+  width: 116px;
+  height: 38px;
+  margin: 9px 0px;
+  background-color: #ABFF00;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px, #89FF00 0 2px 12px;
+}
+
+.led-connect-off {
+  width: 116px;
+  height: 38px;
+  margin: 9px 0px;
+  background-color: #cacaca;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #303030 0 -1px 9px, rgba(255, 255, 255, 0.5) 0 2px 12px;
+}
+
+.led-alarm-off {
+  width: 116px;
+  height: 38px;
+  margin: 9px 0px;
+  background-color: #cacaca;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #303030 0 -1px 9px, rgba(255, 255, 255, 0.5) 0 2px 12px;
+}
+
+.led-alarm-on {
+  width: 116px;
+  height: 38px;
+  margin: 9px 0px;
+  background-color: #F00;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 12px;
+  -webkit-animation: blinkRed 0.5s infinite;
+  -moz-animation: blinkRed 0.5s infinite;
+  -ms-animation: blinkRed 0.5s infinite;
+  -o-animation: blinkRed 0.5s infinite;
+  animation: blinkRed 0.5s infinite;
+}
+
+@-webkit-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-moz-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-ms-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@-o-keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+@keyframes blinkRed {
+    from { background-color: #F00; }
+    50% { background-color: #A00; box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgba(255, 0, 0, 0.5) 0 2px 0;}
+    to { background-color: #F00; }
+}
+
+.text-white{
+  padding-top: 6px;
+  text-align: center;
+  color: white;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: bold;
+}
+.text-grey{
+  padding-top: 6px;
+  text-align: center;
+  color: rgb(70, 70, 70);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btn-lg{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+#container {
+  height: 160px;
+
+}
+
+  
